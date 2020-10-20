@@ -47,6 +47,8 @@
     <Compile Include="Runner.cs" />
     <Compile Include="Tomas\Main.cs" />
     <Compile Include="Tomas\Venca.cs" />
+    <Compile Include="Honza\Main.cs" />
+    <Compile Include="Honza\Venca.cs" />
     <Compile Include="Vojta\Main.cs" />
     <Compile Include="Vojta\Venca.cs" />
   </ItemGroup>

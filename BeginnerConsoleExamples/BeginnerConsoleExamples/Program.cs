@@ -15,6 +15,9 @@ namespace BeginnerConsoleExamples
             Tomas.Main T = new Tomas.Main();
             T.Run();
 
+            Honza.Main H = new Honza.Main();
+            H.Run();
+
 
             Console.ReadLine();
 
