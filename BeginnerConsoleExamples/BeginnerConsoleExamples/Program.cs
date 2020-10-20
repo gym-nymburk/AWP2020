@@ -18,6 +18,8 @@ namespace BeginnerConsoleExamples
             Vojta.Main V = new Vojta.Main();
             V.Run();
 
+            Filip.Main F = new Filip.Main();
+            F.Run();
 
             Console.ReadLine();
 
