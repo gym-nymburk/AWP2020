@@ -29,6 +29,8 @@ namespace BeginnerConsoleExamples
             Troy.Main s = new Troy.Main();
             s.Run();
 
+            Matej.Main m = new Matej.Main();
+            m.Run();
 
             Console.ReadLine();
 

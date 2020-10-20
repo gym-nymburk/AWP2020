@@ -12,7 +12,8 @@ namespace BeginnerConsoleExamples.Vojta
 
         protected override void RunInternal()
         {
-            Console.WriteLine(Venca.Pokus());
+            Console.WriteLine("Koktavý Venca");
+            Console.WriteLine(Venca.Koktavy("Já nekoktám přece, i když možná trochu", 2, 5));
         }
     }
 }
