@@ -12,7 +12,7 @@ namespace BeginnerConsoleExamples.Filip
 
         protected override void RunInternal()
         {
-            Console.WriteLine(Filip.Pokus());
+            Console.WriteLine(Venca.Pokus());
         }
     }
 }
