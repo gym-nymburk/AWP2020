@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BeginnerConsoleExamples.Filip
+namespace BeginnerConsoleExamples.Matej
 {
     public class Main : Runner
     {
@@ -12,7 +12,7 @@ namespace BeginnerConsoleExamples.Filip
 
         protected override void RunInternal()
         {
-            Console.WriteLine(Matej.Pokus());
+            Console.WriteLine(Venca.Pokus());
         }
     }
 }

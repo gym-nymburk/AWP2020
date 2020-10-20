@@ -10,7 +10,7 @@ namespace BeginnerConsoleExamples.Matej
     {
         public static string Pokus()
         {
-            return "Ahoj";
+            return "Ahoj,";
         }
     }
 }
