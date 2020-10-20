@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BeginnerConsoleExamples.Tomas
+namespace BeginnerConsoleExamples.Troy
 {
     public class Venca
     {

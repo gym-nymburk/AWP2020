@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace BeginnerConsoleExamples.Tomas
+namespace BeginnerConsoleExamples.Troy
 {
     public class Main :Runner
     {
-        protected override string Title => "Tomas";
+        protected override string Title => "Troy";
 
         protected override void RunInternal()
         {

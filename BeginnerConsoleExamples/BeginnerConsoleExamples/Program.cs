@@ -26,6 +26,9 @@ namespace BeginnerConsoleExamples
             Vojta.Main v = new Vojta.Main();
             v.Run();
 
+            Troy.Main s = new Troy.Main();
+            s.Run();
+
 
             Console.ReadLine();
 
