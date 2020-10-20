@@ -15,6 +15,9 @@ namespace BeginnerConsoleExamples
             Tomas.Main T = new Tomas.Main();
             T.Run();
 
+            Ondra.Main O = new Ondra.Main();
+            O.Run();
+
 
             Console.ReadLine();
 
