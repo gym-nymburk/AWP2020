@@ -13,7 +13,9 @@ namespace BeginnerConsoleExamples.Ondra
 
         protected override void RunInternal()
         {
-            Console.WriteLine(Venca.Pokus());
+            Console.WriteLine(Venca.KoktavyVenca("Konecne koktej Venco, uz me seres, nedelam si srandu, znicim te.", 2, 3));
+            Console.ReadLine();
         }
     }
+    
 }
