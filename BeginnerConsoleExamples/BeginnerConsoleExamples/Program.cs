@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace BeginnerConsoleExamples
 {
     class Program
@@ -11,7 +12,7 @@ namespace BeginnerConsoleExamples
         static void Main(string[] args)
         {
 
-            Tomas T = new Tomas();
+            Tomas.Main T = new Tomas.Main();
             T.Run();
 
 
