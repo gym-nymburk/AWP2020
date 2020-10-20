@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BeginnerConsoleExamples.Tomas
+namespace BeginnerConsoleExamples.Troy
 {
     public class Main :Runner
     {
