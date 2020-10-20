@@ -42,6 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ondra\Main.cs" />
+    <Compile Include="Ondra\Venca.cs" />
     <Compile Include="Filip\Main.cs" />
     <Compile Include="Filip\Venca.cs" />
     <Compile Include="Matej\Main.cs" />
