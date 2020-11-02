@@ -38,4 +38,3 @@ namespace Ukol_Matej_Novak_Aws
 
     }
 }
-
