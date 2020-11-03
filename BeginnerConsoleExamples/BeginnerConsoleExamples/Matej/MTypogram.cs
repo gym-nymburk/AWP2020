@@ -4,19 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ukol_Matej_Novak_Aws
+namespace BeginnerConsoleExamples.Matej
 {
-    class Program
+    class MTypogram
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine(Typogram("Nejaky text na ukazku ze mi to funguje"));
-
-            Console.ReadLine();
-
-        }
-
-        private static string Typogram(string text)
+        public static string Typogram(string text)
         {
             string result = "";
             int i = 0;
