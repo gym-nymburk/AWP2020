@@ -10,16 +10,16 @@ namespace BeginnerConsoleExamples.Vojta
     {
         public static string Vytvor(string text)
         {
-            //string[] splittedText = text.Split(" ").ToString();
-            string[] typogramArr = new string[text.Length];
+            string[] rows = new string[text.Length];
+
             for (int i = 0; i < text.Length; i++)
             {
                 string gaps = new string(' ', i);
-                string letterWithGaps = $"{gaps} {text[i]} \n";
-                typogramArr[i] = letterWithGaps;
+                string letterWithGaps = $"{gaps} {text[i]}";
+                rows[i] = letterWithGaps;
             }
-            string typogram = string.Join("", typogramArr);
-            return typogram;
+
+            return string.Join("\n", rows); 
         }
     }
 }
