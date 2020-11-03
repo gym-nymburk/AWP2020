@@ -14,6 +14,9 @@ namespace BeginnerConsoleExamples.Vojta
         {
             Console.WriteLine("Koktavý Venca");
             Console.WriteLine(Venca.Koktavy("Já nekoktám přece, i když možná trochu", 2, 5));
+
+            Console.WriteLine("Typogram");
+            Console.WriteLine(Typogram.Vytvor("Typogram"));
         }
     }
 }
