@@ -12,9 +12,12 @@ namespace BeginnerConsoleExamples.Matej
 
         protected override void RunInternal()
         {
-            Console.WriteLine(Venca.Pokus());
-            Console.WriteLine(Venca.KoktavyVenca("Nejaky text na ukazku ze mi to funguje", 3, 3));
-            Console.WriteLine(Venca.OpacnyVenca("Nejaky text na ukazku ze mi to funguje", 2));
+            //Console.WriteLine(Venca.Pokus());
+            //Console.WriteLine(Venca.KoktavyVenca("Nejaky text na ukazku ze mi to funguje", 3, 3));
+            //Console.WriteLine(Venca.OpacnyVenca("Nejaky text na ukazku ze mi to funguje", 2));
+            //Console.ReadLine();
+            Console.WriteLine(MTypogram.Typogram("Nejaky text na ukazku ze mi to funguje"));
+
             Console.ReadLine();
         }
     }
