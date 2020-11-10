@@ -56,6 +56,7 @@
     <Compile Include="Runner.cs" />
     <Compile Include="Tomas\Main.cs" />
     <Compile Include="Tomas\Soubory.cs" />
+    <Compile Include="Tomas\Stairs.cs" />
     <Compile Include="Tomas\Typogram.cs" />
     <Compile Include="Tomas\Venca.cs" />
     <Compile Include="Troy\Main.cs" />
