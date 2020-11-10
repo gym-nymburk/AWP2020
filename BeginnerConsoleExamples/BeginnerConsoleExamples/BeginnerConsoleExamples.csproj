@@ -45,6 +45,7 @@
     <Compile Include="Filip\Typogram.cs" />
     <Compile Include="Matej\MTypogram.cs" />
     <Compile Include="Ondra\Main.cs" />
+    <Compile Include="Ondra\Stairs.cs" />
     <Compile Include="Ondra\Typogramy.cs" />
     <Compile Include="Ondra\Venca.cs" />
     <Compile Include="Filip\Main.cs" />
