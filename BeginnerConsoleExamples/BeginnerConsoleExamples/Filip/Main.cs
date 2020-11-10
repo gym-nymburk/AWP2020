@@ -14,8 +14,9 @@ namespace BeginnerConsoleExamples.Filip
             //Console.WriteLine(Venca.KriciciVenca("Ahój jak se máš xd já se mám skvěle jak ty lmao motorka", 4));
             //Console.WriteLine(Venca.GenialniVenca("Ahoj jak se mas xd ja se mam skvele jak ty lmao motorka"));
 
-            Console.WriteLine("Zadejte text ze ktereho chcete udelat umeni:");
-            Typogram.Umeni(Console.ReadLine());
+            //Console.WriteLine("Zadejte text ze ktereho chcete udelat umeni:");
+            //Typogram.Umeni(Console.ReadLine());
+            Stairs.Down2("aaabbbaaabbbaa", 4, 4);
             Console.ReadKey();
         }
     }
