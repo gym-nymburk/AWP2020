@@ -42,7 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Filip\Typogram.cs" />
+    <Compile Include="Matej\MTypogram.cs" />
     <Compile Include="Ondra\Main.cs" />
+    <Compile Include="Ondra\Typogramy.cs" />
     <Compile Include="Ondra\Venca.cs" />
     <Compile Include="Filip\Main.cs" />
     <Compile Include="Filip\Venca.cs" />
@@ -52,6 +55,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Runner.cs" />
     <Compile Include="Tomas\Main.cs" />
+    <Compile Include="Tomas\Soubory.cs" />
+    <Compile Include="Tomas\Stairs.cs" />
     <Compile Include="Tomas\Typogram.cs" />
     <Compile Include="Tomas\Venca.cs" />
     <Compile Include="Troy\Class1.cs" />
@@ -60,6 +65,7 @@
     <Compile Include="Honza\Main.cs" />
     <Compile Include="Honza\Venca.cs" />
     <Compile Include="Vojta\Main.cs" />
+    <Compile Include="Vojta\Typogram.cs" />
     <Compile Include="Vojta\Venca.cs" />
   </ItemGroup>
   <ItemGroup>
