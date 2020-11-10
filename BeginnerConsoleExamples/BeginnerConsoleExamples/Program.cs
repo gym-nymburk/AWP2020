@@ -19,7 +19,7 @@ namespace BeginnerConsoleExamples
 
             Ondra.Main o = new Ondra.Main();
             o.Run();
-
+            
             Tomas.Main t = new Tomas.Main();
             t.Run();
 
