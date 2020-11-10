@@ -54,6 +54,7 @@
     <Compile Include="Tomas\Main.cs" />
     <Compile Include="Tomas\Typogram.cs" />
     <Compile Include="Tomas\Venca.cs" />
+    <Compile Include="Troy\Class1.cs" />
     <Compile Include="Troy\Main.cs" />
     <Compile Include="Troy\Venca.cs" />
     <Compile Include="Honza\Main.cs" />
