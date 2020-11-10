@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Filip\Typogram.cs" />
+    <Compile Include="Honza\Class1.cs" />
     <Compile Include="Matej\MTypogram.cs" />
     <Compile Include="Ondra\Main.cs" />
     <Compile Include="Ondra\Typogramy.cs" />
