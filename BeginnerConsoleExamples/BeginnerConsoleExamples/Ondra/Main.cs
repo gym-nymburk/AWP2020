@@ -13,8 +13,9 @@ namespace BeginnerConsoleExamples.Ondra
 
         protected override void RunInternal()
         {
-            Typogramy.Sikmodolu("ahoj jak se mas");
+            //Typogramy.Sikmodolu("ahoj jak se mas");
             //Console.WriteLine(Venca.KoktavyVenca("Konecne koktej Venco, uz me seres, nedelam si srandu, znicim te.", 2, 3));
+            Stairs.Down("aaaaaaaaaaaaaaa", 5, 2);
             Console.ReadLine();
         }
     }

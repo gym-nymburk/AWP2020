@@ -28,6 +28,9 @@ namespace BeginnerConsoleExamples.Troy
 
                 return vysledek;
             }
+    }
+}
+
      
     }
 }
