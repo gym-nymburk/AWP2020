@@ -12,8 +12,7 @@ namespace BeginnerConsoleExamples.Honza
 
         protected override void RunInternal()
         {
-            Schody.Down("Pokus", 10, 2);
-            //Console.WriteLine(Venca.Pokus());
+            Schody.Down("aaaaaaaaaaaaaa", 4, 2);
         }
     }
 }

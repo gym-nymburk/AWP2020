@@ -4,13 +4,4 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BeginnerConsoleExamples.Honza
-{
-    class Venca
-    {
-        public static string Pokus()
-        {
-            return "Honza";
-        }
-    }
-}
+
