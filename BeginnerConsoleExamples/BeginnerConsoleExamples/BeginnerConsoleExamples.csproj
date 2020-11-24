@@ -42,8 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Filip\Stairs.cs" />
     <Compile Include="Filip\Typogram.cs" />
+    <Compile Include="Honza\Class1.cs" />
     <Compile Include="Matej\MTypogram.cs" />
+    <Compile Include="Matej\Stairs.cs" />
     <Compile Include="Ondra\Main.cs" />
     <Compile Include="Ondra\Stairs.cs" />
     <Compile Include="Ondra\Typogramy.cs" />
@@ -61,6 +64,7 @@
     <Compile Include="Tomas\Typogram.cs" />
     <Compile Include="Tomas\Venca.cs" />
     <Compile Include="Troy\Class1.cs" />
+    <Compile Include="Troy\Schody.cs" />
     <Compile Include="Troy\Main.cs" />
     <Compile Include="Troy\Venca.cs" />
     <Compile Include="Honza\Main.cs" />
