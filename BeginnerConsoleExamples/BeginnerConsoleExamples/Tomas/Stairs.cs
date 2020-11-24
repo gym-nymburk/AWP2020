@@ -1,5 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,9 +19,13 @@ namespace BeginnerConsoleExamples.Tomas
         /// </summary>
         /// <param name="len"></param>
         /// <param name="offset"></param>
-        public void Down(string text, int len, int offset)
+        public static void Down(string text, int len, int offset)
         {
-
+            for (int i = 0; i < text.Length - len +1; i = i + len)
+            {
+                Debug.Write(new string(' ', (i / len) * (len - offset)));
+                Debug.WriteLine(text.Substring(i,len));
+            }
         }
 
 
@@ -36,7 +40,7 @@ namespace BeginnerConsoleExamples.Tomas
         /// </summary>
         /// <param name="len"></param>
         /// <param name="offset"></param>
-        public void Up(string text, int len, int offset)
+        public static void Up(string text, int len, int offset)
         {
 
         }
@@ -57,11 +61,5 @@ namespace BeginnerConsoleExamples.Tomas
         {
 
         }
-
-
-
-
-
-
     }
 }

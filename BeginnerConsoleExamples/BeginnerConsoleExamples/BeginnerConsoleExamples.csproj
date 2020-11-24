@@ -59,6 +59,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Runner.cs" />
     <Compile Include="Tomas\Main.cs" />
+    <Compile Include="Tomas\Osoba.cs" />
+    <Compile Include="Tomas\Pokus.cs" />
     <Compile Include="Tomas\Soubory.cs" />
     <Compile Include="Tomas\Stairs.cs" />
     <Compile Include="Tomas\Typogram.cs" />
