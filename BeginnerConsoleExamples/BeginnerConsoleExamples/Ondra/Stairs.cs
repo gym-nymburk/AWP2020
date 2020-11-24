@@ -10,6 +10,11 @@ namespace BeginnerConsoleExamples.Ondra
     {
         public static void Down(string text, int len, int offset)
         {
+            if (len > text.Length)
+            {
+                Console.WriteLine("Požadovaná délka je delší než text");
+                return;
+            }
 
             for (int i = 0; i < text.Length; i++)
             {
