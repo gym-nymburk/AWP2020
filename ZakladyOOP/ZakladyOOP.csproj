@@ -52,6 +52,8 @@
     <Compile Include="Tomas\Knihovna.cs" />
     <Compile Include="Troy\Věc.cs" />
     <Compile Include="Troy\Kuchyň.cs" />
+    <Compile Include="Vojta\Clovek.cs" />
+    <Compile Include="Vojta\Lide.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
