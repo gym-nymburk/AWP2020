@@ -14,6 +14,8 @@ namespace ZakladyOOP
             Knihovna knihovna = new Knihovna();
             knihovna.Seznam();
 
+            Filip.Album album = new Filip.Album();
+            album.Tracklist();
 
             Console.ReadLine();
         }
