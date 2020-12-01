@@ -16,6 +16,7 @@ namespace ZakladyOOP
 
             Ondra.Utulek utulek = new Ondra.Utulek();
             utulek.Seznam();
+
             Matej.ObchodSFilmy filmy = new Matej.ObchodSFilmy();
             filmy.Seznam();
 

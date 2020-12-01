@@ -10,7 +10,7 @@ namespace ZakladyOOP.Ondra
     {
         public string Jmeno { get; set; }
 
-        public int Narozeni { get; set; }
+        public DateTime Narozeni { get; set; }
 
         public string Plemeno { get; set; }
 

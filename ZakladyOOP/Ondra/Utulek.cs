@@ -15,30 +15,29 @@ namespace ZakladyOOP.Ondra
             {
                 new Zvire
                 {
-                    Jméno = "Adam",
-                    Narozeni = "1.1.2020",
-                    Plemeno = "Kolie"
+                    Jmeno = "Adam",
+                    Narozeni = new DateTime(2020, 1, 1),
+                    Plemeno = "Kolie",
                     Pohlavi = "pes"
-                }
+                },
                 new Zvire
                 {
-                    Jméno = "Alena",
-                    Narozeni = "1.2.2020",
-                    Plemeno = "Border kolie"
+                    Jmeno = "Alena",
+                    Narozeni = new DateTime(2020, 2, 1),
+                    Plemeno = "Border kolie",
                     Pohlavi = "fena"
                 }
-            }
+            };
         }
 
 
-        private Zvirata[] Zvire;
-
+        private Zvire[] Zvirata;
 
         public void Seznam()
         {
-            foreach (Zvire in Zvirata)
+            foreach (Zvire zvire in Zvirata)
             {
-                Console.WriteLine(Zvire.Desc);
+                Console.WriteLine(zvire.Desc);
             }
         }
 
