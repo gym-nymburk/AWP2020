@@ -42,12 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Filip\Album.cs" />
-    <Compile Include="Filip\Pisen.cs" />
+    <Compile Include="Matej\ObchodSFilmy.cs" />
+    <Compile Include="Matej\Film.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tomas\Kniha.cs" />
     <Compile Include="Tomas\Knihovna.cs" />
+    <Compile Include="Troy\Věc.cs" />
+    <Compile Include="Troy\Kuchyň.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
