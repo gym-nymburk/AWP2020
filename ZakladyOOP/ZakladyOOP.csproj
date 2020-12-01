@@ -42,6 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Filip\Album.cs" />
+    <Compile Include="Filip\Pisen.cs" />
     <Compile Include="Matej\ObchodSFilmy.cs" />
     <Compile Include="Matej\Film.cs" />
     <Compile Include="Program.cs" />
