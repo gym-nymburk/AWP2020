@@ -14,6 +14,8 @@ namespace ZakladyOOP
             Knihovna knihovna = new Knihovna();
             knihovna.Seznam();
 
+            Matej.ObchodSFilmy filmy = new Matej.ObchodSFilmy();
+            filmy.Seznam();
 
             Console.ReadLine();
         }
