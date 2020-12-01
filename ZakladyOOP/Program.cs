@@ -17,6 +17,9 @@ namespace ZakladyOOP
             Matej.ObchodSFilmy filmy = new Matej.ObchodSFilmy();
             filmy.Seznam();
 
+            Troy.Kuchyň kuchyň = new Troy.Kuchyň();
+            kuchyň.Seznam();
+
             Console.ReadLine();
         }
     }
