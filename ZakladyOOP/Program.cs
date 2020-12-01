@@ -23,6 +23,9 @@ namespace ZakladyOOP
             Troy.Kuchyň kuchyň = new Troy.Kuchyň();
             kuchyň.Seznam();
 
+            Vojta.Lide lide = new Vojta.Lide();
+            lide.Seznam();
+
             Console.ReadLine();
         }
     }

@@ -36,7 +36,7 @@ namespace ZakladyOOP.Vojta
         private Clovek[] lide;
 
 
-        public void VypisLidi()
+        public void Seznam()
         {
             foreach (Clovek clovek in lide)
             {
