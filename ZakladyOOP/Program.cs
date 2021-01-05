@@ -14,11 +14,17 @@ namespace ZakladyOOP
             Knihovna knihovna = new Knihovna();
             knihovna.Seznam();
 
+            Ondra.Utulek utulek = new Ondra.Utulek();
+            utulek.Seznam();
+
             Matej.ObchodSFilmy filmy = new Matej.ObchodSFilmy();
             filmy.Seznam();
 
             Troy.Kuchyň kuchyň = new Troy.Kuchyň();
             kuchyň.Seznam();
+
+            Vojta.Lide lide = new Vojta.Lide();
+            lide.Seznam();
 
             Console.ReadLine();
         }
